@@ -39,9 +39,9 @@ export default function SiteNav(props) {
         <Nav.Link href="#about">Meet the Team</Nav.Link>
         {/* <Nav.Link href="#features">Features</Nav.Link> */}
       </Nav>
-      <div  className="collapse navbar-collapse justify-content-end" style={{display:"flex"}}>
-      {usernav}
-      </div>
+      <Navbar.Collapse className="justify-content-end">
+        {usernav}
+      </Navbar.Collapse>
     </Navbar>
     {/* <br /> */}
   </>
